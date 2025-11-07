@@ -2,7 +2,7 @@
 # Random SNV overlap with G4 motifs
 # ==============================================================
 # Author: Angelika Lahnsteiner, Dr. 
-# Date: 2025-01-01
+# Date: 2025-01-07
 # Purpose: Generate a randomized SNV dataset and overlap it  
 #          with pqsfinder or G4Hunter datasets
 # ==============================================================
@@ -21,7 +21,7 @@ library(tidyr)
 # ===============================
 
 #load SNP dataset
-snps <- read.delim("path/to/SNVs_hg38.bed", header = FALSE) # load the Park et al. SNV dataset
+snps <- read.delim("path/to/Park_sign_SNVs_hg38.bed", header = FALSE) # load the Park et al. SNV dataset
 head(snps)
 snps <- snps[c(1,2,3,10)]
 colnames(snps) <- c("chr", "start", "end", "rs_id")
@@ -34,7 +34,7 @@ colnames(g4_snps) <- c("chr", "start", "end", "rs_id")
 head(g4_snps)
 
 #load G4 motifs
-g4_regions <- read.delim("path/to/G4hunter_hg38.bed", header = FALSE) # load genome-wide G4Hunter or pqsfinder predicted G4 motifs
+g4_regions <- read.delim("path/to/G4_motifs_hg38.bed", header = FALSE) # load genome-wide G4Hunter or pqsfinder predicted G4 motifs
 
 g4_regions <- g4_regions[c(1:3)]
 colnames(g4_regions) <- c("chr", "start", "end")
