@@ -88,8 +88,13 @@ G4–SNVs were intersected with ±250 bp windows around alternative promoters
 
 ## Sources:
 [1] Hon, J., et al., pqsfinder: an exhaustive and imperfection-tolerant search tool for potential quadruplex-forming sequences in R. Bioinformatics, 2017. 33(21): p. 3373-3379.
+
 [2] Bedrat, A., L. Lacroix, and J.L. Mergny, Re-evaluation of G-quadruplex propensity with G4Hunter. Nucleic Acids Res, 2016. 44(4): p. 1746-59.
+
 [3] Park, S., et al., Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome. Nat Genet, 2024. 56(11): p. 2380-2391.
-[4] Zhang, R., G4SNVHunter: Evaluating SNV-Induced Disruption of G-Quadruplex Structures, R package version 1.1.4, 
+
+[4] Zhang, R., G4SNVHunter: Evaluating SNV-Induced Disruption of G-Quadruplex Structures, R package version 1.1.4
+
 [5] Rauluseviciute, I., et al., JASPAR 2024: 20th anniversary of the open-access database of transcription factor binding profiles. Nucleic Acids Res, 2024. 52(D1): p. D174-D182.
-[6] Demircioglu, D., et al., A Pan-cancer Transcriptome Analysis Reveals Pervasive Regulation through Alternative Promoters. Cell, 2019. 178(6): p. 1465-1477 e17.
+
+[6] Demircioglu, D., et al., A Pan-cancer Transcriptome Analysis Reveals Pervasive Regulation through Alternative Promoters. Cell, 2019. 178(6): p. 1465-1477 e17
