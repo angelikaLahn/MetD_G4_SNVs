@@ -27,7 +27,7 @@ The pipeline supports both **pqsfinder**- and **G4Hunter**-predicted G4s and ena
 Overlaps between **MetD-associated SNVs** and **G4 motifs** were computed using **`bedtools intersect`**.
 
 To assess whether overlaps occur by chance:
-1. Chromosome-wise random SNV sets were generated from the full SNV dataset.
+1. Chromosome-wise and GC-corrected random SNV sets were generated from the full SNV dataset.
 2. The randomization was repeated **1,000 times** to establish a null distribution.
 3. P-values were computed using a **permutation test**.
 
